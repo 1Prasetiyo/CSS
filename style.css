@@ -55,14 +55,35 @@ body {
     background-image: url(/home/User_kde/latihan/1/img/herringbone.png);
 }
 
+.top-bar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    background-color: rgb(91, 148, 255);
+    z-index: 1;
+    border-bottom: 4px solid salmon;
+}
+
 .container {
     width: 1200px;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.959);
+    position: relative;
+}
+
+.t {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
 }
 
 .header {
     padding: 20px 20px 10px 30px;
+    margin-top: 70px;
 
 }
 
